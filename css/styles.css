@@ -14,11 +14,11 @@ body {
     width: 100%;
 }
 h1 {
-    font-size: 5.625em;
+    font-size: 5.625rem;
     font-family: sacramento, sans-serif;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 h1, h2 {
@@ -31,17 +31,20 @@ p {
     line-height: 2;
 }
 .top-cloud {
+    width: 10%;
     position: absolute;
     top: 40px;
     right: 300px;
 }
 .bottom-cloud {
+    width: 15%;
     position: absolute;
     left: 250px;
     bottom: 300px;
 }
 .mountain {
     width: 53%;
+    height: 42%;
 }
 .middle-container {
     width: 100%;
