@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: auto;
     text-align: center;
     font-family: poppins, Geneva, Tahoma, sans-serif;
@@ -6,6 +7,7 @@ body {
     font-size: 16px;
 }
 .top-container {
+    width: 100%;
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
@@ -38,6 +40,9 @@ p {
     left: 250px;
     bottom: 300px;
 }
+.mountain {
+    width: 53%;
+}
 .middle-container {
     width: 100%;
     margin: 100px auto;
@@ -47,7 +52,7 @@ p {
     padding-bottom: 10px;
 }
 .profile p {
-    width: 30%;
+    width: 60%;
     margin: auto;
 }
 .skills {
@@ -115,7 +120,6 @@ hr {
 }
 .btn {
     display: inline-block;
-    width: 15%;
     position: relative;
     top: 40px;
     background: #11CAD1;
@@ -129,9 +133,15 @@ hr {
     border-radius: 8px;
     font-family: Arial;
     color: #ffffff;
-    font-size: 1.25em;
-    padding: 10px 20px 10px 20px;
+    font-size: 1em;
+    padding: 10px 15px;
     text-decoration: none;
+}
+@media only screen and (min-width: 600px) {
+    .btn {
+        font-size: 1.25em;
+        padding: 10px 20px;
+    }
 }
 
 .btn:hover {
