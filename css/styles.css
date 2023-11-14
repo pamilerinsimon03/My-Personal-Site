@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    max-width: 100%;
     margin: auto;
     text-align: center;
     font-family: poppins, Geneva, Tahoma, sans-serif;
@@ -8,17 +9,17 @@ body {
 }
 .top-container {
     width: 100%;
+    max-width: 100%;
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
-    width: 100%;
 }
 h1 {
-    font-size: 5.625rem;
+    font-size: 562.50%;
     font-family: sacramento, sans-serif;
 }
 h2 {
-    font-size: 1.5rem;
+    font-size: 150%;
     font-family: 'Montserrat', sans-serif;
 }
 h1, h2 {
@@ -31,7 +32,7 @@ p {
     line-height: 2;
 }
 .top-cloud {
-    width: 10%;
+    width: 15%;
     position: absolute;
     top: 40px;
     right: 300px;
@@ -158,6 +159,7 @@ hr {
 }
 .bottom-container {
     width: 100%;
+    max-width: 100%;
     background-color: #66BFBF;
     padding-top: 40px;
     padding-bottom: 10px;
