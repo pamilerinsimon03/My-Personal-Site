@@ -32,16 +32,22 @@ p {
     line-height: 2;
 }
 .top-cloud {
-    width: 15%;
-    position: absolute;
-    top: 40px;
-    right: 300px;
+    display: none;
 }
 .bottom-cloud {
-    width: 15%;
-    position: absolute;
-    left: 250px;
-    bottom: 300px;
+    display: none;
+}
+@media only screen and (min-width: 600px) {
+    .top-cloud {
+        position: absolute;
+        top: 40px;
+        right: 300px;
+    }
+    .bottom-cloud {
+        position: absolute;
+        left: 250px;
+        bottom: 300px;
+    }
 }
 .mountain {
     width: 53%;
