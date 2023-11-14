@@ -114,6 +114,8 @@ hr {
     margin: auto;
 }
 .btn {
+    display: inline-block;
+    width: 12%;
     position: relative;
     top: 40px;
     background: #11CAD1;
@@ -170,6 +172,6 @@ hr {
 }
 .bottom-container p {
     color: #EAF6F6;
-    font-size: 12px;
+    font-size: 0.75em;
     margin: 30px auto;
 }
